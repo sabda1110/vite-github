@@ -34,7 +34,7 @@ jobs:
       - name: setUp Node
         uses: actions/checkout@v3
         with: 
-            node-version: 18,
+            node-version: 18
             cache: 'npm'
       - name: install Dependencies
         run: npm install
